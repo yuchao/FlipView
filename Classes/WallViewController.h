@@ -48,6 +48,7 @@
 -(void)showViewInFullScreen:(UIViewExtention*)viewToShow withModel:(MessageModel*)model;
 -(void)closeFullScreen;
 -(void)buildPages:(NSArray*)messagesArray;
+- (id)initWithData:(NSDictionary *)data;
 
 @property (nonatomic, assign) NSMutableArray* viewControlerStack;
 @property (nonatomic, assign) UIGestureRecognizer* gestureRecognizer;

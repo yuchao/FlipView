@@ -53,9 +53,8 @@
 
 @synthesize viewControlerStack,gestureRecognizer,wallTitle;
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-   
-    if ( self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
+- (id)initWithData:(NSDictionary *)data {
+    if ( self = [super initWithNibName:nil bundle:nil]) {
 		[self.view setBackgroundColor:[UIColor whiteColor]];
 		isInFullScreenMode = FALSE;
 		
