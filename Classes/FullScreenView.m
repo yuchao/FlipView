@@ -148,7 +148,7 @@
    if ([animationID isEqualToString:@"CLOSEFULLSCREEN"]) {
 	   self.alpha = 0;
 	   [self removeFromSuperview];
-	   [[FlipViewAppDelegate instance] closeFullScreen];
+	   //[[FlipViewAppDelegate instance] closeFullScreen];
    }
 }
 

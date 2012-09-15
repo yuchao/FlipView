@@ -115,7 +115,7 @@
 }
 
 -(void)tapped:(UITapGestureRecognizer *)recognizer {
-	[[FlipViewAppDelegate instance] showViewInFullScreen:self withModel:self.messageModel];
+//	[[FlipViewAppDelegate instance] showViewInFullScreen:self withModel:self.messageModel];
 }
 
 
